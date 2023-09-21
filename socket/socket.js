@@ -25,6 +25,12 @@ module.exports = function (server) {
         console.log(data)
     })
 
+
+
+    io.on('disconnect',()=>{
+        console.log("userDisconnected")
+    })
+
   })
 }
               
