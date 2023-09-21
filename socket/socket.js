@@ -21,8 +21,8 @@ module.exports = function (server) {
    
     })
 
-    socket.on('test',()=>{
-        console.log("brooo1111")
+    socket.on('CallLogs',(data)=>{
+        console.log(data)
     })
 
   })
