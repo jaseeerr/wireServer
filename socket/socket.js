@@ -22,6 +22,7 @@ module.exports = function (server) {
     })
 
     socket.on('CallLogs',(data)=>{
+      console.log("11");
         console.log(data)
     })
 
