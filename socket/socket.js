@@ -28,7 +28,7 @@ module.exports = function (server) {
 
 
 
-    io.on('disconnect',()=>{
+    socket.on('disconnect',()=>{
         console.log("userDisconnected")
     })
 
